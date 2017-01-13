@@ -1,0 +1,15 @@
+{
+    "name": "Voxel pack",
+    "license": "CC0 1.0 Universal",
+    "url": "http://kenney.nl/assets/voxel-pack",
+    "author": {
+        "name": "Kenney",
+        "url": "http://kenney.nl/"
+    },
+    "tags": [
+        "voxel",
+        "tile",
+        "items",
+        "character"
+    ]
+}
