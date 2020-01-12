@@ -14,21 +14,27 @@
 
 ## Summary
 
-Blockycraft is an interactive demo that uses standard first person controls to navigate through a block world. Blockycraft is a interactive graphics demo to create a Minecraft inspired demo which revolves around breaking and placing blocks. The game world is composed of rough cubes arranged in a fixed grid pattern and representing different materials, such as dirt, stone, and snow.  The techniques used in the demo can be toggled using keyboard commands.  The Blockycraft project is written using C++ and OpenGL.
+Blockycraft is a interactive graphics demo to create a Minecraft inspired demo which revolves around breaking and placing blocks. The game world is composed of rough cubes arranged in a fixed grid pattern and representing different materials, such as dirt, stone, and snow.  The techniques used in the demo can be toggled using keyboard commands.  The Blockycraft project is written using C++ and OpenGL.
 
 ![blockycraft world](./docs/screenshots/world.png "Blockycraft")
 
-### Status
+## Notes
 
-Development of the project has halted.
+The project was developed for a University of Waterloo Graphics course in Summer 2016. The focus was on graphics techniques (e.g. transparency, ambient occlusion) or gameplay.
 
-## Development
+The original blockycraft project was a hack & slack project built under a pretty short timeline (~month). After completing it, the project went through a second round of refactoring to break up the `main.cpp` file which stored almost all of the codebase. During this refactoring, improvements were pulled in, or code from external projects was adopted to improve the overall codebase.
 
-Original blockycraft project was a hack & slash project. It was then refactored, combining knowledge from Fodgleman/Craft to make improvements to the original source of Blockycraft. The project as is, is the result of.
-
-The project is now archived, but provided here as is.
+Due to the difficulty of building the project, I recently recorded video of the project to go along with the screenshots.
 
 ## Acknowledgements
+
+I would like to take a moment to acknowledge worked that has been included or incorporated into the refactored version of Blockycraft:
+
+- [Perlin Noise](https://github.com/sol-prog/Perlin_Noise) - Replaced previous implementation with a modified version of sol-prog's improved perlin noise implementation
+- [fogleman/Craft](https://github.com/fogleman/Craft) - Improved rendering mechanism and faster means of performing lookups of Chunk data (originally implemented was significantly slower)
+- CS488 Course Assets - The project is built within the course assets of CS488. This has not changed in the refactoring
+
+## Kenney.nl
 
 The project icon is retrieved from [kenney.nl](docs/icon/icon.json). The original source material has been altered for the purposes of the project. The icon is used under the terms of the [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
 
