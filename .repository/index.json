@@ -1,0 +1,34 @@
+{
+  "slug": "blockycraft-classic",
+  "namespace": "blockycraft",
+  "status": "archived",
+  "icon": "icon.svg",
+  "license": {
+    "type": "MIT",
+    "content": "Jonathan Beverly <jrbeverly>"
+  },
+  "topics": [
+    "opengl",
+    "block-engine",
+    "sdl2"
+  ],
+  "languages": [
+    "Batchfile",
+    "C",
+    "C++",
+    "CMake",
+    "CSS",
+    "GLSL",
+    "Gnuplot",
+    "HTML",
+    "JavaScript",
+    "Less",
+    "Lua",
+    "M",
+    "Objective-C",
+    "Objective-C++",
+    "Perl",
+    "Python",
+    "Shell"
+  ]
+}
