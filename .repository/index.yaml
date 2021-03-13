@@ -1,0 +1,15 @@
+slug: blockycraft-classic
+namespace: classic
+project: blockycraft
+status: archived
+icon: icon.svg
+license:
+  type: MIT
+  content: Jonathan Beverly <jrbeverly>
+  year: 2016
+topics: |-
+  [
+    "opengl",
+    "block-engine",
+    "sdl2"
+  ]
