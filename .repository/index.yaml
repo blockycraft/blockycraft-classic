@@ -1,6 +1,7 @@
 slug: blockycraft-classic
-namespace: classic
+description: Blockycraft is a Minecraft inspired Block Engine.
 project: blockycraft
+namespace: classic
 status: archived
 icon: icon.svg
 license:
